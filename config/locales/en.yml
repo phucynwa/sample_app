@@ -1,4 +1,19 @@
 en:
   hello: "Hello world"
   user: "User"
+  signup: "Sign up"
+  users:
+    new:
+      signup: "Sign up"
+      confirmation: "Confirmation"
+      create_my_account: "Create my account"
+  shared:
+    error_messages:
+      form_error_warning: "The form contains %{errors_count} error."
 
+  static_pages:
+    home:
+      welcome: "Welcome to the Sample App"
+      sign_up_now: "Sign up now !"
+
+  welcome: Welcome to the Sample App!
