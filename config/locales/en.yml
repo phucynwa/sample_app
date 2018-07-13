@@ -9,7 +9,9 @@ en:
       create_my_account: "Create my account"
   shared:
     error_messages:
-      form_error_warning: "The form contains %{errors_count} error."
+      form_error_warning:
+        one: "The form contains 1 error."
+        other: "The form contains %{errors_count} errors."
   layouts:
     header:
       home: "Home"
@@ -25,11 +27,10 @@ en:
       log_in: "Log in"
       sign_up_now: "Sign up now !"
       new_user: "New user?"
+      remember_me: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
   static_pages:
     home:
       welcome: "Welcome to the Sample App"
       sign_up_now: "Sign up now !"
-
-  welcome: Welcome to the Sample App!
