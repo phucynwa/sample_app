@@ -3,10 +3,29 @@ en:
   user: "User"
   signup: "Sign up"
   users:
+    index:
+      all_users: "All users"
+      please_login: "Please log in."
+    create:
+      welcome: "Welcome to Sample App"
     new:
       signup: "Sign up"
       confirmation: "Confirmation"
       create_my_account: "Create my account"
+    edit:
+      edit_user: "Edit user"
+      save_changes: "Save changes"
+      change: "Change"
+      update_profile: "Update your profile"
+      please_login: "Please log in."
+    update:
+      profile_updated: "Profile updated."
+    destroy:
+      user_deleted: "User deleted"
+      user_not_exist: "User not exist, cannot delete !"
+    user:
+      you_sure: "You sure ?"
+      delete: "Delete"
   shared:
     error_messages:
       form_error_warning:
