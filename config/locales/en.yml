@@ -8,6 +8,7 @@ en:
       please_login: "Please log in."
     create:
       welcome: "Welcome to Sample App"
+      please_check_email: "Please check your email to active your account."
     new:
       signup: "Sign up"
       confirmation: "Confirmation"
@@ -28,9 +29,8 @@ en:
       delete: "Delete"
   shared:
     error_messages:
-      form_error_warning:
-        one: "The form contains 1 error."
-        other: "The form contains %{errors_count} errors."
+      form_error_warning: "The form contains %{errors_count}."
+      number_error: " %{number} error"
   layouts:
     header:
       home: "Home"
@@ -49,7 +49,19 @@ en:
       remember_me: "Remember me on this computer"
     create:
       invalid: "Invalid email/password combination"
+      notice_check_mail: "Account not activated. Check your email for the activation link."
   static_pages:
     home:
       welcome: "Welcome to the Sample App"
       sign_up_now: "Sign up now !"
+  account_activations:
+    edit:
+      account_activated: "Account activated."
+      invalid_activation_link: "Invalid activation link."
+  user_mailer:
+    account_activation:
+      title: "Sample App"
+      hi: Hi %{username},"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      account_activation: "Account activation"
