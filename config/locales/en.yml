@@ -27,10 +27,18 @@ en:
     user:
       you_sure: "You sure ?"
       delete: "Delete"
+    show:
+      microposts_count: "Microposts (%{count})"
   shared:
     error_messages:
       form_error_warning: "The form contains %{errors_count}."
-      number_error: " %{number} error"
+      error: "error"
+    user_info:
+      view_my_profile: "View my profile"
+      micropost: "micropost"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
   layouts:
     header:
       home: "Home"
@@ -55,6 +63,7 @@ en:
     home:
       welcome: "Welcome to the Sample App"
       sign_up_now: "Sign up now !"
+      micropost_feed: "Micropost Feed"
   account_activations:
     edit:
       account_activated: "Account activated."
@@ -87,3 +96,15 @@ en:
       cant_empty: "can't be empty"
       password_updated: "Password has been reset."
       password_reset_expired: "Password reset has expired."
+  microposts:
+    micropost:
+      posted_time: "Posted %{time} ago."
+      delete: "Delete"
+      you_sure: "You sure?"
+    create:
+      micropost_created: "Micropost created!"
+    destroy:
+      micropost_deleted: "Micropost deleted"
+      micropost_cannot_deleted: "Micropost cannot deleted"
+  alerts:
+    max_image_size: "Maximum file size is 5MB. Please choose a smaller file."

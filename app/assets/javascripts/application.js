@@ -16,3 +16,13 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require i18n
+//= require i18n.js
+//= require i18n/translations
+
+$("#micropost_picture").bind("change", function() {
+  var size_in_megabytes = this.files[0].size/1024/1024;
+  if (size_in_megabytes > 5) {
+    alert(I18n.t("alerts.max_image_size"));
+  }
+});
