@@ -29,6 +29,18 @@ en:
       delete: "Delete"
     show:
       microposts_count: "Microposts (%{count})"
+      user_not_exist: "User doesn't exist."
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+    info:
+      view_my_profile: "View my profile"
+      microposts: "<b>Microposts:</b> %{count}"
+    followers:
+      followers: "Followers"
+    following:
+      following: "Following"
   shared:
     error_messages:
       form_error_warning: "The form contains %{errors_count}."
@@ -39,6 +51,9 @@ en:
     micropost_form:
       compose: "Compose new micropost..."
       post: "Post"
+    stats:
+      following: "following"
+      followers: "followers"
   layouts:
     header:
       home: "Home"
@@ -108,3 +123,8 @@ en:
       micropost_cannot_deleted: "Micropost cannot deleted"
   alerts:
     max_image_size: "Maximum file size is 5MB. Please choose a smaller file."
+  relationships:
+    create:
+      user_not_exist: "User doesn't exist to follow."
+    destroy:
+      user_not_exist: "User doesn't exist to unfollow."
