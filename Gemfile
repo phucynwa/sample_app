@@ -12,6 +12,10 @@ gem "bootstrap-will_paginate", "1.0.0"
 gem "bootstrap-sass", "3.3.7"
 gem "jquery-rails"
 gem "rubocop", "~> 0.54.0", require: false
+gem "carrierwave", "1.2.2"
+gem "mini_magick", "4.7.0"
+gem "kaminari"
+gem "i18n-js"
 gem "sqlite3"
 gem "puma", "~> 3.11"
 gem "sass-rails", "~> 5.0"
@@ -31,6 +35,10 @@ group :development do
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
 end
+
+group :production do
+   gem "fog", "1.42"
+ end
 
 group :test do
   gem "capybara", ">= 2.15", "< 4.0"
